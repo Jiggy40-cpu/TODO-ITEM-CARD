@@ -19,7 +19,7 @@ class TodoCard {
     this.card = document.querySelector('[data-testid="test-todo-card"]');
 
     // View mode elements
-    this.checkbox = document.querySelector('[data-testid="test-todo-complete-toggle"]');
+    this.checkbox = document.querySelector('[data-testid="test-todo-checkbox"]');
     this.titleEl = document.querySelector('[data-testid="test-todo-title"]');
     this.descriptionEl = document.querySelector('[data-testid="test-todo-description"]');
     this.priorityEl = document.querySelector('[data-testid="test-todo-priority"]');
